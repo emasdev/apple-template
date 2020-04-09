@@ -1,11 +1,6 @@
 html {
-  font:
-    12px/18px "Lucida Grande",
-    "Lucida Sans Unicode",
-    Helvetica,
-    Arial,
-    Verdana,
-    sans-serif;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
+    Verdana, sans-serif;
 }
 
 h1 {
@@ -34,8 +29,7 @@ main {
 /* HEADER */
 
 .header-wrapper {
-  background:
-    url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg)
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg)
     50% 100% no-repeat;
   background-size: 1440px 1315px;
   height: 600px;
@@ -50,56 +44,41 @@ main {
 .header nav {
   background: rgb(139, 139, 139);
   background: #707070;
-  background:
-    -o-linear-gradient(
+  background: -o-linear-gradient(
       top,
       rgba(0, 0, 0, 0.2) 0,
       rgba(0, 0, 0, 0) 5%,
       rgba(0, 0, 0, 0) 97%,
       rgba(0, 0, 0, 0.45) 100%
     ),
-    -o-linear-gradient(
-      left,
-      rgba(0, 0, 0, 0.2) 0,
-      rgba(0, 0, 0, 0) 0.2%,
-      rgba(
-        0,
-        0,
-        0,
-        0
-      )
-      99.8%,
-      rgba(0, 0, 0, 0.2) 100%
-    ),
+    -o-linear-gradient(left, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 0.2%, rgba(
+            0,
+            0,
+            0,
+            0
+          )
+          99.8%, rgba(0, 0, 0, 0.2) 100%),
     url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC)
-    no-repeat 50% 50%,
+      no-repeat 50% 50%,
     -o-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
-  background:
-    -moz-linear-gradient(
+  background: -moz-linear-gradient(
       top,
       rgba(0, 0, 0, 0.2) 0,
       rgba(0, 0, 0, 0) 5%,
       rgba(0, 0, 0, 0) 97%,
       rgba(0, 0, 0, 0.45) 100%
     ),
-    -moz-linear-gradient(
-      left,
-      rgba(0, 0, 0, 0.2) 0,
-      rgba(0, 0, 0, 0) 0.2%,
-      rgba(
-        0,
-        0,
-        0,
-        0
-      )
-      99.8%,
-      rgba(0, 0, 0, 0.2) 100%
-    ),
+    -moz-linear-gradient(left, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 0.2%, rgba(
+            0,
+            0,
+            0,
+            0
+          )
+          99.8%, rgba(0, 0, 0, 0.2) 100%),
     url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC)
-    no-repeat 50% 50%,
+      no-repeat 50% 50%,
     -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
-  background:
-    -webkit-gradient(
+  background: -webkit-gradient(
       linear,
       0 0,
       0 100%,
@@ -110,7 +89,7 @@ main {
     ),
     -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))),
     url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC)
-    no-repeat 50% 50%,
+      no-repeat 50% 50%,
     -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
   -khtml-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -202,7 +181,7 @@ main {
   outline: none;
 }
 
-.footer-nav a {
+.footer a {
   color: #08c;
   text-decoration: none;
 }
