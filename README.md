@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/emasdev/apple-template/d245abe48f94fdef777a03872e0b3abd4bf2f021/index.html)
+[Live Demo Link](https://rawcdn.githack.com/emasdev/apple-template/93d149f88e0daaa79f6ac2c24227f293136d355a/index.html)
 
 ## Getting Started
 
